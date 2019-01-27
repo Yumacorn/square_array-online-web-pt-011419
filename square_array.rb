@@ -1,3 +1,11 @@
+numbers = [1,2,3]
+
 def square_array(array)
-  # your code here
+  array.each{|element| puts element**2}
 end
+
+puts "Original Time!"
+puts square_array([1,2,3])
+puts "Numbers Time!"
+puts square_array(numbers)
+puts 3**2
