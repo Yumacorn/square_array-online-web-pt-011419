@@ -5,9 +5,3 @@ def square_array(array)
   array.each{|element| new_array << element**2}
   new_array
 end
-
-puts "Original Time!"
-puts square_array([1,2,3])
-puts "Numbers Time!"
-puts square_array(numbers)
-puts 3**2
