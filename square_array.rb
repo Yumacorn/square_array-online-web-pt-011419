@@ -1,7 +1,7 @@
 numbers = [1,2,3]
 
 def square_array(array)
-  array.each{|element| element**2}
+  new_array = array.each{|element| element**2}
 end
 
 puts "Original Time!"
